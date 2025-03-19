@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 # Eat and Split
 
