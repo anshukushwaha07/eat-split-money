@@ -1,9 +1,68 @@
-# React + Vite
+#!/bin/bash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Eat and Split
 
-Currently, two official plugins are available:
+# Eat and Split is a simple web application that helps users split the bill fairly 
+# among a group of participants based on the amount each person consumed. 
+# The app calculates how much each participant owes and provides a clear breakdown of the bill.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Eat-split
+# Features:
+# - Add Participants: Users can add multiple participants to the bill.
+# - Enter Amount Consumed: Each participant’s consumption amount can be entered.
+# - Fair Split Calculation: The app automatically calculates the amount each participant owes 
+#   based on their individual consumption.
+# - Total Bill Calculation: Displays the total bill and individual breakdown for each participant.
+
+# Tech Stack:
+# Frontend: React, Vite
+# Styling: (Add if using CSS frameworks like Tailwind or others)
+
+# Getting Started:
+# Follow these steps to set up and run the project locally.
+
+# Prerequisites:
+# - Node.js (v14.18.0 or higher)
+
+# Installation:
+# Clone the repository:
+
+git clone https://github.com/your-username/eat-and-split.git
+
+# Navigate to the project directory:
+
+cd eat-and-split
+
+# Install dependencies:
+
+npm install
+
+# Running the App:
+# Start the development server:
+
+npm run dev
+
+# Access the app:
+# Open your browser and go to http://localhost:5173 to view the app.
+
+# Build for Production:
+# To create a production build:
+
+npm run build
+
+# The build files will be generated in the dist folder.
+
+# Preview Production Build:
+# To preview the production build locally:
+
+npm run preview
+
+# React + Vite:
+# This project uses React with Vite for a minimal setup with Hot Module Replacement (HMR) 
+# and some ESLint rules.
+
+# Usage:
+# - Add Participants: Enter the name of each participant.
+# - Add Amounts Consumed: Input the amount each participant has consumed.
+# - Split the Bill: The app will calculate how much each person owes 
+#   based on their consumption and display a breakdown.
+
