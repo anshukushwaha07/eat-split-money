@@ -1,29 +1,28 @@
+# Eat and Split
 
-#Eat and Split
 Eat and Split is a simple web application that helps users split the bill fairly among a group of participants based on the amount each person consumed. The app calculates how much each participant owes and provides a clear breakdown of the bill.
 
-##Features
-**Add Participants: Users can add multiple participants to the bill.**
+## Features
+- **Add Participants**: Users can add multiple participants to the bill.
+- **Enter Amount Consumed**: Each participant’s consumption amount can be entered.
+- **Fair Split Calculation**: The app automatically calculates the amount each participant owes based on their individual consumption.
+- **Total Bill Calculation**: Displays the total bill and individual breakdown for each participant.
 
-**Enter Amount Consumed: Each participant’s consumption amount can be entered.**
+## Tech Stack
+- **Frontend**: React, Vite
+- **Styling**: (Add if using CSS frameworks like Tailwind or others)
 
-**Fair Split Calculation: The app automatically calculates the amount each participant owes based on their individual consumption.**
-
-**Total Bill Calculation: Displays the total bill and individual breakdown for each participant.**
-
-##Tech Stack
-**Frontend: React, Vite**
-
-**Styling: (Add if using CSS frameworks like Tailwind or others)**
-
-##Getting Started
+## Getting Started
 Follow these steps to set up and run the project locally.
 
-##Prerequisites
--Node.js (v14.18.0 or higher)
+### Prerequisites
+- Node.js (v14.18.0 or higher)
 
-#Installation
--Clone the repository:
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/eat-and-split.git
+
 
 ```bash
 Copy
